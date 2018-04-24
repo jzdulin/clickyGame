@@ -17,7 +17,9 @@ import "./FriendCard.css";
 
 const FriendCard = props => (
   <div className="img-container">
-    <input className="image-input" data-type={props.id} type="image" src={props.image} alt={props.name} onClick={this.handleIncrement}>
+      {/* <button type= "button className="image-input" data-type={props.id}< img src={props.image}> onClick={this.handleIncrement}>
+    </button> */}
+    <input className="image-input" value={props.id} type="image" src={props.image} alt={props.name} onClick={() => props.handleIncrement(props.id)}>
     </input>
     {/* <a onClick={this.handleIncrement} className="image-input">
       <img alt={props.name} src={props.image} />
