@@ -47,6 +47,13 @@ class App extends Component {
         return
       }
     }
+    if (1 + this.state.curScore === 12) {
+      this.setState({ message: "Winner! Click an image to play again" })
+      this.setState({ curScore: 0 });
+      this.setState({ topScore: this.state.curScore +1 });
+      return
+    }
+
     testArray.push(clickedImage[0].id)
 
     // event.preventDefault()
