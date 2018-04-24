@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Braum",
+    "image": "https://www.mobafire.com/images/champion/square/braum.png"
+  },
+  {
+    "id": 2,
+    "name": "Caitlyn",
+    "image": "https://www.mobafire.com/images/champion/square/caitlyn.png"
+  },
+  {
+    "id": 3,
+    "name": "Quinn",
+    "image": "https://www.mobafire.com/images/champion/square/quinn.png"
+  },
+  {
+    "id": 4,
+    "name": "Soraka",
+    "image": "https://www.mobafire.com/images/champion/square/soraka.png"
+  },
+  {
+    "id": 5,
+    "name": "Warwick",
+    "image": "https://www.mobafire.com/images/champion/square/warwick.png"
+  },
+  {
+    "id": 6,
+    "name": "Graves",
+    "image": "https://www.mobafire.com/images/champion/square/graves.png"
+  },
+  {
+    "id": 7,
+    "name": "Taliyah",
+    "image": "https://www.mobafire.com/images/champion/square/taliyah.png"
+  },
+  {
+    "id": 8,
+    "name": "Ivern",
+    "image": "https://www.mobafire.com/images/champion/square/ivern.png"
+  },
+  {
+    "id": 9,
+    "name": "Lux",
+    "image": "https://www.mobafire.com/images/champion/square/lux.png"
+  },
+  {
+    "id": 10,
+    "name": "Anivia",
+    "image": "https://www.mobafire.com/images/champion/square/anivia.png"
+  },
+  {
+    "id": 11,
+    "name": "Brand",
+    "image": "https://www.mobafire.com/images/champion/square/brand.png"
+  },
+  {
+    "id": 12,
+    "name": "Maokai",
+    "image": "https://www.mobafire.com/images/champion/square/maokai.png"
+  }
+]
