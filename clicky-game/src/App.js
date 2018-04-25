@@ -53,6 +53,7 @@ class App extends Component {
       this.setState({ message: "Winner! Click an image to play again" })
       this.setState({ curScore: 0 });
       this.setState({ topScore: this.state.curScore +1 });
+      testArray = []
       return
     }
     //else push the id into the array
