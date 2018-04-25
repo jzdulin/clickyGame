@@ -16,14 +16,15 @@ class App extends Component {
     curScore: 0,
   };
 
-
+  //shuffles the images in an array so they all switch places
   shuffleArray = array => {
     for (let i = array.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
     }
   }
-  //event -> ()
+
+  //when an image is clicked this happens
   handleIncrement = id => {
     //grab the images
     const images = this.state.images;
@@ -47,27 +48,27 @@ class App extends Component {
         return
       }
     }
+    //If they get all 12
     if (1 + this.state.curScore === 12) {
       this.setState({ message: "Winner! Click an image to play again" })
       this.setState({ curScore: 0 });
       this.setState({ topScore: this.state.curScore +1 });
       return
     }
-
+    //else push the id into the array
     testArray.push(clickedImage[0].id)
 
-    // event.preventDefault()
+    //increase current score and give a nice message
     this.setState({ message: "Well Done! Click another!" })
     this.setState({ curScore: this.state.curScore + 1 });
 
+    // shuffle those images
     this.shuffleArray(images)
 
 
-    // array.push(props.id)
-
-
   };
-  // Map over this.state.friends and render a FriendCard component for each friend object
+
+  //render it all together
   render() {
     return (
       <Wrapper>
